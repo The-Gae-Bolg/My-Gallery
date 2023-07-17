@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/images/devchallenges.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style/style.css">
+    <title>My Gallery</title>
+  </head>
+  <body>
+    <div id="app" class="w-11/12 md:w-9/12 lg:w-8/12 mx-auto pt-10">
+      <header class="flex flex-col justify-center items-center gap-y-1">
+        <img class="w-[101px] sm:w-[156px] rounded-2xl mb-3" src="/src/images/profilePhoto.png" alt="perfil">
+        <h1 class="text-[#4E5150] text-sm sm:text-2xl font-semibold">Rodney Cotton</h1>
+        <h2 class="font-semibold text-[#A9A9A9] text-[10px] sm:text-sm pb-5">Helsinki, Finland</h2>
+        <div class="flex flex-row gap-x-6">
+          <div class="bg-[#E5E5E5] w-[78px] h-[52px] sm:w-[100px] sm:h-[67px] rounded-xl flex flex-col justify-center items-center">
+            <h3 class="text-[#4E5150] text-xs sm:text-lg font-semibold">100</h3>
+            <p class="text-[#BDBDBD] text-xs sm:text-sm">Posts</p>
+          </div>
+          <div class="bg-[#E5E5E5] w-[78px] h-[52px] sm:w-[100px] sm:h-[67px] rounded-xl flex flex-col justify-center items-center">
+            <h3 class="text-[#4E5150] text-xs sm:text-lg font-semibold">2,242</h3>
+            <p class="text-[#BDBDBD] text-xs sm:text-sm">Follower</p>
+          </div>
+          <div class="bg-[#E5E5E5] w-[78px] h-[52px] sm:w-[100px] sm:h-[67px] rounded-xl flex flex-col justify-center items-center">
+            <h3 class="text-[#4E5150] text-xs sm:text-lg font-semibold">1,432</h3>
+            <p class="text-[#BDBDBD] text-xs sm:text-sm">Following</p>
+          </div>
+        </div>
+      </header>
+        
+      <main class="w-full grid grid-cols-3 grid-rows-3 gap-3 md:gap-6  mt-6"> 
+        <img class="w-full h-full object-cover rounded-xl shadow-image-gallery" src="/src/images/photo1.png" alt="">
+        <img class="w-full h-full object-cover col-span-2 rounded-xl shadow-image-gallery" src="/src/images/photo2.png" alt="">
+        <img class="w-full h-full object-cover col-span-2 rounded-xl shadow-image-gallery" src="/src/images/photo3.png" alt="">
+        <img class="w-full h-full object-cover row-span-2 rounded-xl shadow-image-gallery" src="/src/images/photo_4.png" alt="">
+        <img class="w-full h-full object-cover rounded-xl shadow-image-gallery" src="/src/images/photo6.png" alt="">
+        <img class="w-full h-full object-cover rounded-xl shadow-image-gallery" src="/src/images/photo5.png" alt="">
+      </main>
+      <footer>
+        <p class="font-medium text-sm leading-4 text-center text-[#BDBDBD] pb-6 pt-12 sm:pt-24 font-Montserrat">
+          created by <span class="font-bold">The-Gae-Bolg</span> - devChallenges.io
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
