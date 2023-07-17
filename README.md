@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/The-Gae-Bolg/My-Gallery">
       Solution
     </a>
     <span> | </span>
